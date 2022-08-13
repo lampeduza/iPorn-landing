@@ -1,0 +1,21 @@
+.promo {
+	background: url('../img/promo.jpg'),
+	linear-gradient(147.47deg, #131313 19.47%, #211B1B 96.18%);
+
+	.header__container {
+		background: none;
+		padding: 42px 80px 34px 80px;
+	}
+
+	.container {
+		padding: 55px 80px 80px 80px;
+	}
+
+	.main__title {
+		width: 1091px;
+
+		span {
+			margin-left: -20px;
+		}
+	}
+}

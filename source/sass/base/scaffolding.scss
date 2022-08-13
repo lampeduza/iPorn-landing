@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Neutral Face";
+  font-weight: 400;
+  // font-size: 16px;
+  // line-height: 24px;
+  // color: $primary-color;
+  background-color: #f6f5f4;
+  text-transform: uppercase;
+  margin: 0 auto;
+  min-height: 100vh;
+  min-width: 1920px;
+  max-width: 1920px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+picture {
+  display: block;
+}
+
+section {
+  height: 903px;
+}
+
+.scroll-container {
+  width: 1760px;
+  height: 42px;
+  margin: -82px auto 0 auto;
+  position: sticky;
+  top: 20px;
+}

@@ -1,0 +1,13 @@
+.text {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 1.2;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	user-select: none;
+
+	&--browser {
+		margin: 0 0 100px 0;
+	}
+}

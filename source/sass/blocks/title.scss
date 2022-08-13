@@ -1,0 +1,36 @@
+.title {
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 1.2;
+	color: #fff;
+	margin: 0;
+	user-select: none;
+
+	&--advantage {
+		margin-top: calc(420px - 179px);
+		letter-spacing: 0.1em;
+		margin-left: -20px;
+	}
+
+	&--ad {
+		margin-top: 174px;
+		margin-bottom: 135px;
+		letter-spacing: 0.1em;
+		width: 175px;
+		text-align: center;
+	}
+
+	&--policy {
+		width: 1412px;
+		letter-spacing: 0.1em;
+		margin-left: -8px;
+		margin-top: -4px;
+	}
+
+	&--distribute {
+		width: 1402px;
+		letter-spacing: 0.1em;
+		margin-top: 81px;
+		margin-bottom: 20px;
+	}
+}

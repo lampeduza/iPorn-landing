@@ -1,0 +1,96 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+
+	.main__promo-text {
+		width: 1164px;
+		text-align: center;
+		margin: 0 -8px 105px 0;
+		letter-spacing: 0.1em;
+	}
+
+	.main__no-ad-text {
+		width: 692px;
+		letter-spacing: 0.1em;
+	}
+
+	.main__advantage-text {
+		width: 827px;
+		letter-spacing: 0.1em;
+		margin-left: -2px;
+    margin-top: -4px;
+
+		.yellow {
+			font-weight: 700;
+		}
+	}
+
+	&--policy {
+		align-items: flex-start;
+
+		.main__picture {
+			position: absolute;
+			bottom: -230px;
+			display: none;
+		}
+	}
+
+	.main__distribute-text {
+		margin-bottom: 85px;
+		letter-spacing: 0.1em;
+	}
+}
+
+.main__title {
+	width: 1049px;
+	text-align: center;
+	margin: 0 0 36px 0;
+}
+
+.main__list-strong {
+	display: flex;
+	width: max-width;
+}
+
+.main__picture {
+	position: absolute;
+	bottom: -40px;
+	left: 40px;
+	display: none;
+
+	&::before,
+	&::after {
+		font-size: 20px;
+		line-height: 28px;
+		position: absolute;
+		color: #ffffff;
+		left: 140px;
+		width: 262px;
+	}
+
+	&::before {
+		content: '1. Click on the file';
+		top: 35px;
+		
+	}
+
+	&::after {
+		content: '2. Click "Run".';
+		top: 60px;
+	}
+
+	&--up {
+		top: -95px;
+		right: 40px;
+		bottom: auto;
+		left: auto;
+
+		&::before,
+		&::after {
+			right: 80px;
+			left: auto;
+		}
+	}
+}

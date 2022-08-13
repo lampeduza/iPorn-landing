@@ -1,0 +1,41 @@
+/* Neutral Face regular (normal)*/
+@font-face {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  //font-display: optional;
+  src: url("../fonts/regular.woff") format("woff");
+}
+
+/* Neutral Face bold (normal)*/
+@font-face {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  //font-display: optional;
+  src: url("../fonts/bold.woff") format("woff");
+}
+
+/* BlackCrow regular (normal) */
+@font-face {
+  font-family: "Black crow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  //font-display: optional;
+  src: url("../fonts/bc-regular.woff2") format("woff2"),
+    url("../fonts/bc-regular.woff") format("woff");
+}
+
+/* BlackCrow bold (normal) */
+@font-face {
+  font-family: "Black crow";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  //font-display: optional;
+  src: url("../fonts/bc-bold.woff2") format("woff2"),
+    url("../fonts/bc-bold.woff") format("woff");
+}
